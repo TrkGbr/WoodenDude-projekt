@@ -8,7 +8,7 @@ using System.IO;
 public class MainMenu : MonoBehaviour
 {
     public GameObject ContinueButton;
-    private string campus = "Campus";
+    private string campus = "game scene";
 
     //Játékindítás
     public void PlayGame ()
