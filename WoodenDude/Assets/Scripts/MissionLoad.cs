@@ -15,11 +15,6 @@ public class MissionLoad : MonoBehaviour
             MissionDescription.text = GameManager.Instance.Ndescription;
             Invoke("DisappearText", delayBeforeDisappear);
         }
-        else
-        {
-            MissionDescription.text = GameManager.Instance.Fdescription;
-            Invoke("DisappearText", delayBeforeDisappear);
-        }
     }
 
     //Küldetés egy idõ után eltûnik

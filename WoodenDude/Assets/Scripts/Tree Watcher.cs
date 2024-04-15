@@ -1,8 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.UIElements;
 
 public class Tree_Watcher : MonoBehaviour
 {
@@ -11,7 +8,6 @@ public class Tree_Watcher : MonoBehaviour
     public GameObject Tree_Enemy;
     public GameObject Tree_Stump;
     private int All_Trees_Count = 0;
-    public int Difficulty = 1;
 
     void Start()
     {
@@ -27,7 +23,7 @@ public class Tree_Watcher : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < Difficulty * 10; i++)
+        for (int i = 0; i < GameManager.Instance.difficulty * 10; i++)
         {
             int x = Random.Range(0, All_Trees_Count);
 
@@ -47,7 +43,7 @@ public class Tree_Watcher : MonoBehaviour
     {
         int z = Random.Range(1, 101);
 
-        if (z <= 25 + (Difficulty * 10))
+        if (z <= 25 + (GameManager.Instance.difficulty * 10))
         {
             Instantiate(Tree_Enemy, Position, Quaternion.identity);
         }

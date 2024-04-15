@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public int difficulty = 1;
+    public int symbolCount;
+
     public int puska;
     public int stageCounter;
     public string title;

@@ -4,11 +4,12 @@ using UnityEngine.AI;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 20;
     public Transform player; // A játékos Transform komponense
 
     private Rigidbody2D rb;
     private Vector2 direction;
+    private Coroutine stopCoroutine;
 
     void Start()
     {
@@ -43,17 +44,23 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Border"))
         {
-            StartCoroutine(Stopforseconds(50f));
+            StopEnemy();
+
+            if (stopCoroutine != null)
+            {
+                StopCoroutine(stopCoroutine);
+            }
+
+            stopCoroutine = StartCoroutine(StopforSeconds(5f));
 
             // Ha ütközik, megkeressük újra a játékost
             FindPlayer();
-            // Új irány a játékos felé
+
             direction = (player.position - transform.position).normalized;
 
             Rotate();
+            moveSpeed = 20;
 
-            // Mozgás az irányba
-            rb.velocity = direction * moveSpeed;
             Debug.Log("Anya jövök");
         }
 
@@ -65,15 +72,29 @@ public class EnemyMovement : MonoBehaviour
     }
 
     public void Rotate()
-    {
+    {        
         var relativePos = player.position - transform.position;
         var angle = Mathf.Atan2(relativePos.y, relativePos.x) * Mathf.Rad2Deg + 90;
         var rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = rotation;
     }
 
-    IEnumerator Stopforseconds(float seconds)
+    void StopEnemy()
+    {
+        moveSpeed = 0;
+        rb.velocity = direction * moveSpeed; ;
+    }
+
+    IEnumerator StopforSeconds(float seconds)
     {
         yield return new WaitForSeconds(seconds);
+        StartEnemy();
     }
+
+    void StartEnemy()
+    {
+        direction = (player.position - transform.position).normalized;
+        rb.velocity = direction * moveSpeed;
+    }
+    
 }
