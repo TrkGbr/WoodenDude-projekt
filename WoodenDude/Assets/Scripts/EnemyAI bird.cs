@@ -42,6 +42,7 @@ public class EnemyAI_bird : MonoBehaviour
 
     void Update()
     {
+
         // Számoljuk ki a távolságot a játékostól
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -58,27 +59,34 @@ public class EnemyAI_bird : MonoBehaviour
         {
             // Ha a játékos már nincs a detektálási radiusban, térjen vissza a patrollinghoz
             isChasing = false;
-            agent.speed = patrolSpeed;
             StartCoroutine(Patrol()); // Újraindítjuk a patrollingot
+
         }
     }
 
     // Coroutine a patrollingos viselkedéshez
     IEnumerator Patrol()
     {
+        agent.speed = patrolSpeed;
         while (true)
         {
-            // Várunk a meghatározott patrolling idõre
-            yield return new WaitForSeconds(patrolTime);
-
             // Beállítunk egy véletlenszerû célpontot a jelenlegi pozíciónk körül
             Vector3 randomDirection = Random.insideUnitSphere * 50f;
             randomDirection += transform.position;
 
             // Használjuk a NavMesh-et, hogy megtaláljunk egy érvényes pozíciót a megadott területen belül
             NavMeshHit hit;
-            NavMesh.SamplePosition(randomDirection, out hit, 50f, 1 << NavMesh.GetAreaFromName("Walkable bird"));
+            NavMesh.SamplePosition(randomDirection, out hit, 50f, 1 << NavMesh.GetAreaFromName("Walkable"));
             agent.SetDestination(hit.position);
+
+            var relativePos = hit.position - transform.position;
+            var angle = Mathf.Atan2(relativePos.y, relativePos.x) * Mathf.Rad2Deg + 90;
+            var rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = rotation;
+
+            // Várunk a meghatározott patrolling idõre
+            yield return new WaitForSeconds(patrolTime);
+
         }
     }
 }

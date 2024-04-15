@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Symbol
   - Tree
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -15,11 +16,11 @@ TagManager:
   - UI
   - Ground
   - Trees
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tree Enemy
+  - Bird Enemy
+  - Character
+  - Border
+  - Symbol
   - 
   - 
   - 

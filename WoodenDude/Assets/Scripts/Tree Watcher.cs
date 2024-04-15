@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UIElements;
 
 public class Tree_Watcher : MonoBehaviour
@@ -26,7 +27,7 @@ public class Tree_Watcher : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < Difficulty * 5; i++)
+        for (int i = 0; i < Difficulty * 10; i++)
         {
             int x = Random.Range(0, All_Trees_Count);
 
@@ -38,6 +39,7 @@ public class Tree_Watcher : MonoBehaviour
             Enemy_Spawn_Decider(Position);
 
         }
+
         Debug.Log("Megmaradt fák száma:" + All_Trees_Count);
     }
 
@@ -45,7 +47,7 @@ public class Tree_Watcher : MonoBehaviour
     {
         int z = Random.Range(1, 101);
 
-        if (z <= 20 + (Difficulty * 10))
+        if (z <= 25 + (Difficulty * 10))
         {
             Instantiate(Tree_Enemy, Position, Quaternion.identity);
         }

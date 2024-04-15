@@ -42,6 +42,7 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
+
         // Számoljuk ki a távolságot a játékostól
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -58,19 +59,17 @@ public class EnemyAI : MonoBehaviour
         {
             // Ha a játékos már nincs a detektálási radiusban, térjen vissza a patrollinghoz
             isChasing = false;
-            agent.speed = patrolSpeed;
             StartCoroutine(Patrol()); // Újraindítjuk a patrollingot
+
         }
     }
 
     // Coroutine a patrollingos viselkedéshez
     IEnumerator Patrol()
     {
+        agent.speed = patrolSpeed;
         while (true)
         {
-            // Várunk a meghatározott patrolling idõre
-            yield return new WaitForSeconds(patrolTime);
-
             // Beállítunk egy véletlenszerû célpontot a jelenlegi pozíciónk körül
             Vector3 randomDirection = Random.insideUnitSphere * 50f;
             randomDirection += transform.position;
@@ -79,6 +78,9 @@ public class EnemyAI : MonoBehaviour
             NavMeshHit hit;
             NavMesh.SamplePosition(randomDirection, out hit, 50f, 1 << NavMesh.GetAreaFromName("Walkable"));
             agent.SetDestination(hit.position);
+
+            // Várunk a meghatározott patrolling idõre
+            yield return new WaitForSeconds(patrolTime);
         }
     }
 }
