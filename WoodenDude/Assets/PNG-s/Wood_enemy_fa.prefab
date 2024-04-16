@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4275355110846053101}
   m_Layer: 0
   m_Name: Wood_enemy_fa
-  m_TagString: Untagged
+  m_TagString: Tree Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,6 +7,9 @@ TagManager:
   - Symbol
   - Tree
   - Border
+  - Bird Enemy
+  - Tree Enemy
+  - Stump
   layers:
   - Default
   - TransparentFX

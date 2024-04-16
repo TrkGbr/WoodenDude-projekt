@@ -1,10 +1,9 @@
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Tree_Enemy_Spawner : MonoBehaviour
 {
+    public Text CollectedSymbols;
     public Tree_Watcher treeWatcher;
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -13,6 +12,9 @@ public class Tree_Enemy_Spawner : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             treeWatcher.EnemySpawn();
+            Destroy(gameObject);
+            GameManager.Instance.symbolCount++;
+            CollectedSymbols.text = GameManager.Instance.symbolCount + "/6";
         }
     }
 }

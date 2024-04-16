@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class PlayerTakeDamage : MonoBehaviour
 {
     public static int currentHealth;
-    public int damage;
+    private int damage;
+    private int maxhealth = 100;
     public Text health;
 
     //Megadjuk a kezdeti élet mértékét
@@ -18,19 +19,32 @@ public class PlayerTakeDamage : MonoBehaviour
     //Beállítjuk a csapdák és ellenfelek sebzését és megjelenítjük a HUD texten is
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("Bird Enemy"))
         {
-            damage = 10;
+            damage = 5 * GameManager.Instance.difficulty;
+            currentHealth = currentHealth - damage;
+            health.text = currentHealth + "";
+            Debug.Log("Taking damage(5)...");
+        }
+        if (collision.gameObject.CompareTag("Tree Enemy"))
+        {
+            damage = 10 * GameManager.Instance.difficulty;
             currentHealth = currentHealth - damage;
             health.text = currentHealth + "";
             Debug.Log("Taking damage(10)...");
         }
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Stump"))
         {
-            damage = 20;
-            currentHealth = currentHealth - damage;
-            health.text = currentHealth + "";
-            Debug.Log("Taking damage(20)...");
+            if (currentHealth <= 100)
+            {
+                currentHealth += 10;
+
+                if (currentHealth > maxhealth)
+                {
+                    currentHealth = 100;
+                }
+                health.text = currentHealth.ToString();
+            }
         }
     }
 }

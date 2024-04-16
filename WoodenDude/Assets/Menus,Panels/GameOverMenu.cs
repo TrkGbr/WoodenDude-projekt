@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
@@ -20,5 +21,13 @@ public class GameOverMenu : MonoBehaviour
         {
             GameOver();
         }
+    }
+
+    public void ExitAfterFail()
+    {
+        SceneManager.LoadScene("Menu");
+
+        //A felvett krediteket nullázzuk fail esetén
+        GameManager.Instance.symbolCount = 0;
     }
 }

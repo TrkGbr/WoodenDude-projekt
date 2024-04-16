@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 188104745451745389}
   - component: {fileID: 841580568196670460}
-  - component: {fileID: 595987043428257029}
+  - component: {fileID: 7079979605186012194}
   - component: {fileID: 5756058840463825320}
   m_Layer: 0
   m_Name: Tree_stump_3.0
-  m_TagString: Untagged
+  m_TagString: Stump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &595987043428257029
+--- !u!114 &7079979605186012194
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467407347992748899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 458117330c0b5964dba3618ce69b472f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6007eb0ebb51c5a45b5cf08e5935dfd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &5756058840463825320
