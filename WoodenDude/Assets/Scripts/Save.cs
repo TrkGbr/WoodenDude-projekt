@@ -2,6 +2,6 @@
 public class Save
 {
     //Mentés elemei
-    public int cheatNum;
-    public int roomNum;
+    public int PlayerName;
+    public int Time;
 }

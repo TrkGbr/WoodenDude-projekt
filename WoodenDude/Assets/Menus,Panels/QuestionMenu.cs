@@ -25,7 +25,7 @@ public class QuestionMenu: MonoBehaviour
         if (GameManager.Instance.stageCounter < 2)
         {
             SceneManager.LoadScene(campus);
-            Door.IsOpened = false;
+            //Door.IsOpened = false;
             GameIsPaused = false;
             Time.timeScale = 1f;
 
@@ -37,7 +37,7 @@ public class QuestionMenu: MonoBehaviour
             Time.timeScale = 1f;
         }
         GameManager.Instance.stageCounter++;
-        ItemPickup.kredit = 0;
+        //ItemPickup.kredit = 0;
         //Autosave a pályák végén
         SaveByXml();
     }
@@ -60,11 +60,11 @@ public class QuestionMenu: MonoBehaviour
         root.SetAttribute("FileName", "File_01");
 
         XmlElement cheatNumElement = xmlDocument.CreateElement("cheatNum");
-        cheatNumElement.InnerText = save.cheatNum.ToString();
+        //cheatNumElement.InnerText = save.cheatNum.ToString();
         root.AppendChild(cheatNumElement);
 
         XmlElement roomNumElement = xmlDocument.CreateElement("roomNum");
-        roomNumElement.InnerText = save.roomNum.ToString();
+        //roomNumElement.InnerText = save.roomNum.ToString();
         root.AppendChild(roomNumElement);
 
         xmlDocument.AppendChild(root);
@@ -97,14 +97,14 @@ public class QuestionMenu: MonoBehaviour
 
             XmlNodeList cheatNum = xmlDocument.GetElementsByTagName("cheatNum");
             int cheatNumCount = int.Parse(cheatNum[0].InnerText);
-            save.cheatNum = cheatNumCount;
+            //save.cheatNum = cheatNumCount;
 
             XmlNodeList roomNum = xmlDocument.GetElementsByTagName("roomNum");
             int roomNumCount = int.Parse(roomNum[0].InnerText);
-            save.roomNum = roomNumCount;
+            //save.roomNum = roomNumCount;
 
-            GameManager.Instance.puska = save.cheatNum;
-            GameManager.Instance.stageCounter = save.roomNum;
+            //GameManager.Instance.puska = save.cheatNum;
+            //GameManager.Instance.stageCounter = save.roomNum;
 
             if (GameManager.Instance.stageCounter < 3)
             {
@@ -131,8 +131,8 @@ public class QuestionMenu: MonoBehaviour
     {
         Save save = new Save();
 
-        save.cheatNum = GameManager.Instance.puska;
-        save.roomNum = GameManager.Instance.stageCounter;
+        //save.cheatNum = GameManager.Instance.puska;
+        //save.roomNum = GameManager.Instance.stageCounter;
 
         return save;
     }

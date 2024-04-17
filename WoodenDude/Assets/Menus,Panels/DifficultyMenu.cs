@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class DifficultyMenu : MonoBehaviour
 {
-    public Tree_Watcher treeWatcher;
-
     private string game = "game scene";
 
     public void easy()
@@ -25,5 +23,6 @@ public class DifficultyMenu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(game);
+        Time.timeScale = 1f;
     }
 }

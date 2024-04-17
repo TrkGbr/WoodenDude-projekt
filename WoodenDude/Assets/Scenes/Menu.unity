@@ -363,14 +363,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficulty: 0
   symbolCount: 0
-  puska: 0
   stageCounter: 0
-  title: 
   introduction: 
   Ndescription: 
   Fdescription: 
-  dialogs: []
-  answers: 
 --- !u!4 &137971754
 Transform:
   m_ObjectHideFlags: 0
@@ -1202,7 +1198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &414153433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2843,7 +2839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76cb74f6a7eac849b04bc574031e4ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  treeWatcher: {fileID: 0}
 --- !u!1 &1154869311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,7 +3059,7 @@ Transform:
   m_GameObject: {fileID: 1156834453}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 9, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3168,11 +3163,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2057668754}
+  - {fileID: 2064578531}
   - {fileID: 245936105}
   - {fileID: 414153433}
   - {fileID: 1598547122}
   - {fileID: 1138691373}
-  - {fileID: 2064578531}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

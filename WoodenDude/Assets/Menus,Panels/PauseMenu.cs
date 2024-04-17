@@ -6,9 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
     //Játék megállításhoz és referálások
     public static bool GameIsPaused = false;
-    public Text puskaText;
     public GameObject pauseMenu;
-    public GameObject youSureExitPanel;
 
     void Pause()
     {
@@ -31,10 +29,10 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         //Ha lenyomjuk a Escape gombot
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             //És a játék éppen megy
-            if(GameIsPaused == false)
+            if (GameIsPaused == false)
             {
                 //A játék álljon meg
                 Pause();
@@ -45,41 +43,12 @@ public class PauseMenu : MonoBehaviour
                 Resume();
             }
         }
-        //Folyamatosan frissíti a felvett puskák számát a HUD-ban
-        if (GameManager.Instance.puska > 0)
-        {
-            puskaText.text = GameManager.Instance.puska + "";
-        }
-    }
-
-    //GameOver esetén Main menu-be visszalépés
-    public void ExitToMainAfterFail()
-    {
-        SceneManager.LoadScene("Menu");
-
-        //A felvett krediteket nullázzuk fail esetén
-        ItemPickup.kredit = 0;
     }
 
     //Kilépés a fõmenübe
     public void ExitToMain()
     {
-        youSureExitPanel.SetActive(true);
-    }
-
-    //ExitToMain után ha biztos ki akar lépni, kilép a menübe
-    public void YesButton()
-    {
         SceneManager.LoadScene("Menu");
-        ItemPickup.kredit = 0;
+        GameManager.Instance.symbolCount = 0;
     }
-
-    //ExitToMain után ha mégsem akar kilépni, folytatja a játékot
-    public void NoButton()
-    {
-        youSureExitPanel.SetActive(false);
-        GameIsPaused = false;
-        Time.timeScale = 1f;
-    }
-
 }
