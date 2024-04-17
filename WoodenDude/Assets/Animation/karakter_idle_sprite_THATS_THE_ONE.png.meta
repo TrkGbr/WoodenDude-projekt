@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 4cdf07b6feb423443af997a3d239c5e7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b726a90ef125ff84f87c3783b1a4de75
+      internalID: 27017848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270281103905b4b479d10e31d548d359
+      internalID: 417958199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ac14d15e4fa544fb8213c8d9bf6d3f
+      internalID: 2107635836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_3
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733a57fe34e1fa94c94ed588d05aa322
+      internalID: 1315828073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_4
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c009f77af06f0542b38155557338349
+      internalID: 304180646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_5
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a6d351de1812647b4661b7e34edfa5
+      internalID: -750991359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_6
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e37eca223a1a948a39e7cd8b72fccc
+      internalID: -1427696220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_7
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2312b2dcfe149784ca9df1eae6429d78
+      internalID: 56216135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_8
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c6885b50a1844f9f6f5573a823726
+      internalID: 1622443491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_9
+      rect:
+        serializedVersion: 2
+        x: 5508
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff5230992a558746a8e25f0162a8353
+      internalID: 2034590284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_10
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe49d08b6a192834da91d05b93e1bf3a
+      internalID: -2085726139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_11
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde93d7f7ece2243acee8127430186a
+      internalID: 1859061057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_12
+      rect:
+        serializedVersion: 2
+        x: 7344
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46bf4a4b24bb734e9228bb9cca181b1
+      internalID: 1115072210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_13
+      rect:
+        serializedVersion: 2
+        x: 7956
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42ed6e38a9d88d4b811454e10ace0fd
+      internalID: -2004427160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_14
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d04cc5272787b43a829c8bdb1fc8a3
+      internalID: 1917835767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_15
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0137d51b3bf5ffe4bbdbeecc32f89e1a
+      internalID: -1657991633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_16
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f498ad5f897d5aa49900ea76c76b7960
+      internalID: -674869262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_17
+      rect:
+        serializedVersion: 2
+        x: 10404
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b19d0dd7ffff3a479057da9c3d8aa64
+      internalID: -1678293792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_18
+      rect:
+        serializedVersion: 2
+        x: 11016
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98fd9d926266624faefd97ea688f0e1
+      internalID: 889940373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_19
+      rect:
+        serializedVersion: 2
+        x: 11628
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c84b0d037f92c469775a9f575f29e0
+      internalID: 550180253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakter_idle_sprite_THATS_THE_ONE_20
+      rect:
+        serializedVersion: 2
+        x: 12240
+        y: 0
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f8837c98d4364d8581931baff8790
+      internalID: 1650096165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      karakter_idle_sprite_THATS_THE_ONE_0: 27017848
+      karakter_idle_sprite_THATS_THE_ONE_1: 417958199
+      karakter_idle_sprite_THATS_THE_ONE_10: -2085726139
+      karakter_idle_sprite_THATS_THE_ONE_11: 1859061057
+      karakter_idle_sprite_THATS_THE_ONE_12: 1115072210
+      karakter_idle_sprite_THATS_THE_ONE_13: -2004427160
+      karakter_idle_sprite_THATS_THE_ONE_14: 1917835767
+      karakter_idle_sprite_THATS_THE_ONE_15: -1657991633
+      karakter_idle_sprite_THATS_THE_ONE_16: -674869262
+      karakter_idle_sprite_THATS_THE_ONE_17: -1678293792
+      karakter_idle_sprite_THATS_THE_ONE_18: 889940373
+      karakter_idle_sprite_THATS_THE_ONE_19: 550180253
+      karakter_idle_sprite_THATS_THE_ONE_2: 2107635836
+      karakter_idle_sprite_THATS_THE_ONE_20: 1650096165
+      karakter_idle_sprite_THATS_THE_ONE_3: 1315828073
+      karakter_idle_sprite_THATS_THE_ONE_4: 304180646
+      karakter_idle_sprite_THATS_THE_ONE_5: -750991359
+      karakter_idle_sprite_THATS_THE_ONE_6: -1427696220
+      karakter_idle_sprite_THATS_THE_ONE_7: 56216135
+      karakter_idle_sprite_THATS_THE_ONE_8: 1622443491
+      karakter_idle_sprite_THATS_THE_ONE_9: 2034590284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

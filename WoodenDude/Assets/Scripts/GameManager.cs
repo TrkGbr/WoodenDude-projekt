@@ -9,9 +9,10 @@ public class GameManager : MonoBehaviour
     public int symbolCount;
     public int stageCounter;
 
-    public string introduction;
-    public string Ndescription;
-    public string Fdescription;
+    public string Introduction = "";
+    public string FirstMission = "Szedd össze mind a 6 szimbólumot!";
+    public string SecondMission = "Keresd meg a kaput!";
+    public string ThirdMission = "Találd ki a megfelelõ sorrendet!";
 
     //Ne törölje ki ezeket az adatokat Scene váltáskor
     private void Awake()

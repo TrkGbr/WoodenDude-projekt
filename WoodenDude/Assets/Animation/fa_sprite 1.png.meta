@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e50d6a4026d985044b2e67982adb4005
+guid: 59a2718827289964bb35dbd4a9d66160
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fa_sprite_0
+      name: fa_sprite 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6fcb39beb2afd4a969d3eb5cdbf961
-      internalID: 448563474
+      spriteID: 439c8a6d0790ca244ab1a073b5831337
+      internalID: 637288379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_1
+      name: fa_sprite 1_1
       rect:
         serializedVersion: 2
         x: 1040
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfab42cb8815ae848ae33f4d65149a59
-      internalID: 636474490
+      spriteID: 878427f53438075459f101d1858ea804
+      internalID: -2090164390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_2
+      name: fa_sprite 1_2
       rect:
         serializedVersion: 2
         x: 2080
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61984bc6596f39449846313420bf1aa3
-      internalID: 736318028
+      spriteID: 5c33e733d0c51b945806838ac4b5ced1
+      internalID: 1592548617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_3
+      name: fa_sprite 1_3
       rect:
         serializedVersion: 2
         x: 3120
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8322bb831ed954dbd0f837b85d3494
-      internalID: 751527620
+      spriteID: 7ec7730aafb7a8e4386cc1b6a4afb986
+      internalID: 1779816252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_4
+      name: fa_sprite 1_4
       rect:
         serializedVersion: 2
         x: 4160
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 752e050a915729d42aa995f19d807871
-      internalID: -1013499631
+      spriteID: 0b689339360df3942a8f9d98fbba4660
+      internalID: -1744348306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_5
+      name: fa_sprite 1_5
       rect:
         serializedVersion: 2
         x: 5200
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 592faabae79839e40bd8a4cb75662535
-      internalID: 654851744
+      spriteID: 8bdd16bb9f338fb47a2c7dbf206ccf7a
+      internalID: -1481195136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fa_sprite_6
+      name: fa_sprite 1_6
       rect:
         serializedVersion: 2
         x: 6240
@@ -237,29 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7266c31743fbef4d81005592be91531
-      internalID: -415821698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fa_sprite_7
-      rect:
-        serializedVersion: 2
-        x: 7280
-        y: 0
-        width: 1040
-        height: 1040
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c919040dad61dd47983153abba68bf0
-      internalID: -1691151952
+      spriteID: acf8b07d14843af4283c2285ca7ddfdc
+      internalID: 850558925
       vertices: []
       indices: 
       edges: []
@@ -275,14 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fa_sprite_0: 448563474
-      fa_sprite_1: 636474490
-      fa_sprite_2: 736318028
-      fa_sprite_3: 751527620
-      fa_sprite_4: -1013499631
-      fa_sprite_5: 654851744
-      fa_sprite_6: -415821698
-      fa_sprite_7: -1691151952
+      fa_sprite 1_0: 637288379
+      fa_sprite 1_1: -2090164390
+      fa_sprite 1_2: 1592548617
+      fa_sprite 1_3: 1779816252
+      fa_sprite 1_4: -1744348306
+      fa_sprite 1_5: -1481195136
+      fa_sprite 1_6: 850558925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
