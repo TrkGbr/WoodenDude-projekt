@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "MenuOpenClose",
+                    "type": "Button",
+                    "id": "b5b76cc0-e332-4729-8acd-3c35898ff50f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -26,27 +35,10 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "PlayerUI",
-            "id": "9b22145a-2852-4d42-aa24-4d0fc05af932",
-            "actions": [
-                {
-                    "name": "MenuOpenClose",
-                    "type": "Button",
-                    "id": "7103b653-5ff8-4d78-a493-f792eb760126",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "e8ba1c73-6405-42da-b819-ea5b6333487a",
+                    "id": "77ee8dd3-fbc7-4491-afd2-7dda167a0877",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
@@ -57,7 +49,7 @@
                 },
                 {
                     "name": "",
-                    "id": "6c32f1ed-a41b-462a-8a01-a78956c3838b",
+                    "id": "67ce3983-038f-473e-83b1-ddda37e43cd8",
                     "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",

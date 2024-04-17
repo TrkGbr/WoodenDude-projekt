@@ -7915,7 +7915,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1285476419}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: ExitToMain
         m_Mode: 1
         m_Arguments:
@@ -14084,7 +14084,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1285476419}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: ExitToMain
         m_Mode: 1
@@ -24604,10 +24604,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1285476412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9e7a9518a5052d499a249ad695cc0d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 22fe1082c20805946ad2c05180bcacbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 989108030}
+  _PauseMenuCanvasGo: {fileID: 989108030}
 --- !u!1001 &1290388493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34979,7 +34979,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1285476419}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
@@ -46820,6 +46820,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8204709525094427752, guid: 4311bf0f7bfdb3648b21529f98953082, type: 3}
   m_PrefabInstance: {fileID: 696182486}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2108078963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2108078966}
+  - component: {fileID: 2108078965}
+  - component: {fileID: 2108078964}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2108078964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108078963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 0251d04d115a7e44f93ea15a1f319bfb, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: PlayerMovement
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &2108078965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108078963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9350fd4d1c30b5a4481ec6476b7ebdd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2108078966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108078963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 492.07016, y: 270.49167, z: -2.913733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2113990254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8204709525094427752, guid: 4311bf0f7bfdb3648b21529f98953082, type: 3}
@@ -47162,3 +47237,4 @@ SceneRoots:
   - {fileID: 1907501907}
   - {fileID: 233153239}
   - {fileID: 1731384254}
+  - {fileID: 2108078966}
