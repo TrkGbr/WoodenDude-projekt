@@ -7,11 +7,17 @@ public class PlayerTakeDamage : MonoBehaviour
     private int damage;
     private int maxhealth = 100;
     public Text health;
+    public GameObject secondbird;
 
     //Megadjuk a kezdeti élet mértékét
     public void Start()
     {
         currentHealth = 100;
+
+        if (GameManager.Instance.difficulty == 3)
+        {
+            secondbird.SetActive(true);
+        }
     }
 
     //Beállítjuk a csapdák és ellenfelek sebzését és megjelenítjük a HUD texten is

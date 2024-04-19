@@ -6,7 +6,7 @@ public class StoneMenu : MonoBehaviour
     [SerializeField] private GameObject _StoneMenuCanvasGo;
     [SerializeField] private GameObject _StoneMenuFirst;
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         // Player tagû objekttel való ütközés ellenõrzése
         if (collision.gameObject.CompareTag("Player"))
@@ -17,6 +17,7 @@ public class StoneMenu : MonoBehaviour
 
     public void OpenStoneMenu()
     {
+        Time.timeScale = 0f;
         _StoneMenuCanvasGo.SetActive(true);
         EventSystem.current.SetSelectedGameObject(_StoneMenuFirst);
     }
