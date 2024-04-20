@@ -9,11 +9,14 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float speed;
     public Animator animator;
     private Vector2 moveInputValue;
+    public AudioSource footsteps;
 
     private void OnMove(InputValue value)
     {
         moveInputValue = value.Get<Vector2>();
         Debug.Log(moveInputValue);
+        footsteps.enabled = true;
+
     }
 
     private void MoveLogicMethod()
@@ -38,7 +41,11 @@ public class PlayerControl : MonoBehaviour
         animator.SetFloat("Vertical", moveInputValue.y);
         animator.SetFloat("Speed", moveInputValue.sqrMagnitude);
 
-        //normalized a keresztirányú mozgásban segít(enélkül a karakter 40 % -al gyorsabb keresztirányban)
         moveInputValue = new Vector2(moveInputValue.x, moveInputValue.y).normalized;
+
+        if (rb2D.velocity.x == 0 && rb2D.velocity.y == 0)
+        {
+            footsteps.enabled = false;
+        }
     }
 }

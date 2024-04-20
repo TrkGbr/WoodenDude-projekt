@@ -8,6 +8,7 @@ public class Tree_Enemy_Spawner : MonoBehaviour
 
     private float delayBeforeDisappear = 5f;
     public Text MissionDescription;
+    public AudioSource pickup;
 
     
     public void OnCollisionEnter2D(Collision2D collision)
@@ -16,6 +17,7 @@ public class Tree_Enemy_Spawner : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             treeWatcher.EnemySpawn();
+            pickup.Play();
             Destroy(gameObject);
             GameManager.Instance.symbolCount++;
             CollectedSymbols.text = GameManager.Instance.symbolCount + "/6";

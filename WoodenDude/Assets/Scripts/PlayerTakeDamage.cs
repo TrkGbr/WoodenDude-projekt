@@ -8,6 +8,7 @@ public class PlayerTakeDamage : MonoBehaviour
     private int maxhealth = 100;
     public Text health;
     public GameObject secondbird;
+    public AudioSource damagedsound;
 
     //Megadjuk a kezdeti élet mértékét
     public void Start()
@@ -29,6 +30,7 @@ public class PlayerTakeDamage : MonoBehaviour
             currentHealth = currentHealth - damage;
             health.text = currentHealth + "";
             Debug.Log("Taking damage(5)...");
+            damagedsound.Play();
         }
         if (collision.gameObject.CompareTag("Tree Enemy"))
         {
@@ -36,6 +38,7 @@ public class PlayerTakeDamage : MonoBehaviour
             currentHealth = currentHealth - damage;
             health.text = currentHealth + "";
             Debug.Log("Taking damage(10)...");
+            damagedsound.Play();
         }
         if (collision.gameObject.CompareTag("Stump"))
         {
