@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2D: {fileID: 2440479993691758339}
-  speed: 150
+  speed: 3.5
   animator: {fileID: 6648021730270781084}
   footsteps: {fileID: 2334202132433383847}
 --- !u!114 &5867239592455837552

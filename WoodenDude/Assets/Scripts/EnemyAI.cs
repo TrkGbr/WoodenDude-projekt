@@ -2,16 +2,20 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyAI : MonoBehaviour
 {
     // Referencia a célpontra, akit az ellenség követ
     [SerializeField] Transform target;
 
+    public Animator animator;
+
+
     // Referencia a NavMeshAgent komponensre a navigációhoz
     NavMeshAgent agent;
 
     // Az ellenség sebessége patrolling és chasing közben
-    public float patrolSpeed = 6f;
+    public float patrolSpeed = 2f;
     public float chaseSpeed = 7f;
 
     // Idõintervallum a járkáláshoz
@@ -42,7 +46,6 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-
         // Számoljuk ki a távolságot a játékostól
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -62,6 +65,7 @@ public class EnemyAI : MonoBehaviour
             StartCoroutine(Patrol()); // Újraindítjuk a patrollingot
 
         }
+        animator.SetFloat("Speed", agent.speed);
     }
 
     // Coroutine a patrollingos viselkedéshez
