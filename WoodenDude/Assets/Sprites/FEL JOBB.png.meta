@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 5a4cd7ba5b60fa246848229673e7e97d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FEL JOBB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae36e5c1db12b049843a7f30945adf4
+      internalID: 1306409402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef3354997589a443a0ab4baae9f4afe
+      internalID: 972436943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cafc0d387ad8b429c6fd9f8e183862
+      internalID: -127932606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0ebf24e34f090469354e6535cfc663
+      internalID: 249394549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f292fff3062af84bacdb4b2f3ca165c
+      internalID: 1132881499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a7af06b59df448b2b1faec84cb9a0
+      internalID: 542010962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d78d9057ef3ea47ae8b6b65b160659
+      internalID: 208431581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c860619f9d06cd42899cfc150936ab0
+      internalID: -780167338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33fb0d339374ff459e70fe88db87d7d
+      internalID: -1357669107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ce5da065ae18741b2ec5353a27053f
+      internalID: 1747551278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_10
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4653c8d0718e343967e431a7610b4b
+      internalID: 1690316073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_11
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eafff34db88494b90624777216fc85
+      internalID: -1358586875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_12
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f7aca73fc72d747b448e709fb0eb87
+      internalID: 316673715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_13
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b66af2a0b1ab34baa9b23e978dbe7b
+      internalID: -2040515001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_14
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5033beae81f3488cc15432d6b9b06
+      internalID: -1015089732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d518c6ad0c3943a7533b64d06a830
+      internalID: 1889436885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_16
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74da972c61db8843b2ebb91007e6213
+      internalID: 1523940209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_17
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a8d8270313484192aef2d6c91d536
+      internalID: 1678476460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df6f7e2545e39348818f99d994cb947
+      internalID: 1056964521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd0245af46ec34f95a121d38965259
+      internalID: 1353285098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569db39ad82b2de4381e7eae7e7d4fe1
+      internalID: -890442284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL JOBB_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84109fbdf279e42b49eb935363a112
+      internalID: -134453052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FEL JOBB_0: 1306409402
+      FEL JOBB_1: 972436943
+      FEL JOBB_10: 1690316073
+      FEL JOBB_11: -1358586875
+      FEL JOBB_12: 316673715
+      FEL JOBB_13: -2040515001
+      FEL JOBB_14: -1015089732
+      FEL JOBB_15: 1889436885
+      FEL JOBB_16: 1523940209
+      FEL JOBB_17: 1678476460
+      FEL JOBB_18: 1056964521
+      FEL JOBB_19: 1353285098
+      FEL JOBB_2: -127932606
+      FEL JOBB_20: -890442284
+      FEL JOBB_21: -134453052
+      FEL JOBB_3: 249394549
+      FEL JOBB_4: 1132881499
+      FEL JOBB_5: 542010962
+      FEL JOBB_6: 208431581
+      FEL JOBB_7: -780167338
+      FEL JOBB_8: -1357669107
+      FEL JOBB_9: 1747551278
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

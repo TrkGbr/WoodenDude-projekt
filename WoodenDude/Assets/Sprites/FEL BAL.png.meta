@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: d0c855897bd92fc4b82762cba6ff7a84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FEL BALL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aebb57c7257d6e4dbd5c687faa624da
+      internalID: 1857974584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50deeb70c5968b40a80d975b9170440
+      internalID: 1440180848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d4ae58cbd5aec4596c021938f16e29
+      internalID: -1273751080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247a30645dea73a4eb274040cf1ddb74
+      internalID: 1194654245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62626a37e1a7c9e449c8212e61fc2037
+      internalID: 367077186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2462b3e730a6c7648986cda6ef817dde
+      internalID: 1150219143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d32922d27e92314f8c633aaf5fc9778
+      internalID: -1175582601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa8bd87085c37d4cbefb55d604ce38c
+      internalID: -1394556642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de8b1813e628745b3ef6fe9bed959a
+      internalID: -848742202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bef7bfafab151d439a3b10d24b4e95b
+      internalID: 580115155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_10
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806220bb1feec4a46ac4e376a85189fb
+      internalID: -94147443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_11
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947aa1d90bfc0c042890f0ee102827fa
+      internalID: -1309501338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_12
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b99358604428fd43b45bb6ca451c386
+      internalID: -1790126217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_13
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c455f455e1068e429876d4b8b32106d
+      internalID: 2057392391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_14
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88d49e0983ccd6499c075a4f0c4bab9
+      internalID: 1231132333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232b3aa97245d6549a71d8fe113f026d
+      internalID: -1051370383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_16
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70d3c4c6b807a4cbe0ea99f8451804
+      internalID: 48221686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_17
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 96
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed61fe49e9004d3498bb367d34e96c87
+      internalID: 101327998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a0d640204e14747bc52a0791d926a1
+      internalID: -2028351822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6511873f58ddb346b2f858839737e91
+      internalID: 547483248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eea71a5aaec4249849d486c72a21e6
+      internalID: -880256245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEL BALL_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95.111115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdde3b9057834948aa0fac4688c3760
+      internalID: 1775303218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FEL BALL_0: 1857974584
+      FEL BALL_1: 1440180848
+      FEL BALL_10: -94147443
+      FEL BALL_11: -1309501338
+      FEL BALL_12: -1790126217
+      FEL BALL_13: 2057392391
+      FEL BALL_14: 1231132333
+      FEL BALL_15: -1051370383
+      FEL BALL_16: 48221686
+      FEL BALL_17: 101327998
+      FEL BALL_18: -2028351822
+      FEL BALL_19: 547483248
+      FEL BALL_2: -1273751080
+      FEL BALL_20: -880256245
+      FEL BALL_21: 1775303218
+      FEL BALL_3: 1194654245
+      FEL BALL_4: 367077186
+      FEL BALL_5: 1150219143
+      FEL BALL_6: -1175582601
+      FEL BALL_7: -1394556642
+      FEL BALL_8: -848742202
+      FEL BALL_9: 580115155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
